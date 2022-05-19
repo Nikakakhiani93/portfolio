@@ -114,6 +114,16 @@ section {
           transform: translateY(-50%);
 }
 
+.controls .active-btn {
+  background-color: var(--color-secondary) !important;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
+
+.controls .active-btn i {
+  color: var(--color-white) !important;
+}
+
 .controls .control {
   padding: 1rem;
   cursor: pointer;
@@ -133,5 +143,12 @@ section {
   margin: 0.7rem 0;
   -webkit-box-shadow: var(--box-shadow);
           box-shadow: var(--box-shadow);
+  outline: none !important;
+}
+
+.controls .control i {
+  font-size: 1.2rem;
+  color: var(--color-grey2);
+  pointer-events: none;
 }
 /*# sourceMappingURL=styles.css.map */
