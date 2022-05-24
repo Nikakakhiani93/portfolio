@@ -409,25 +409,115 @@ section {
           animation: git 2s ease-out;
 }
 
-@-webkit-keyframes wordpress {
+@-webkit-keyframes html {
   0% {
     width: 0px;
   }
   100% {
-    width: 80%;
+    width: 90%;
   }
 }
 
-@keyframes wordpress {
+@keyframes html {
   0% {
     width: 0px;
   }
   100% {
-    width: 80%;
+    width: 90%;
   }
 }
 
-@-webkit-keyframes prestashop {
+@-webkit-keyframes css {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes scss {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes scss {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes js {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 30%;
+  }
+}
+
+@keyframes js {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 30%;
+  }
+}
+
+@-webkit-keyframes angular {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 20%;
+  }
+}
+
+@keyframes angular {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 20%;
+  }
+}
+
+@-webkit-keyframes angular-material {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 30%;
+  }
+}
+
+@keyframes angular-material {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 30%;
+  }
+}
+
+@-webkit-keyframes git {
   0% {
     width: 0px;
   }
@@ -436,61 +526,7 @@ section {
   }
 }
 
-@keyframes prestashop {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 60%;
-  }
-}
-
-@-webkit-keyframes joomla {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 40%;
-  }
-}
-
-@keyframes joomla {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 40%;
-  }
-}
-
-@-webkit-keyframes blogger {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 70%;
-  }
-}
-
-@keyframes blogger {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 70%;
-  }
-}
-
-@-webkit-keyframes tridion {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 60%;
-  }
-}
-
-@keyframes tridion {
+@keyframes git {
   0% {
     width: 0px;
   }

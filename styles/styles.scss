@@ -315,39 +315,55 @@ section {
       }
 
       /*plataformas*/
-      @keyframes wordpress {
+      @keyframes html {
         0% {
           width: 0px;
         }
         100% {
-          width: 80%;
+          width: 90%;
         }
       }
-      @keyframes prestashop {
+      @keyframes css {
         0% {
           width: 0px;
         }
         100% {
-          width: 60%;
+          width: 90%;
         }
       }
-      @keyframes joomla {
+      @keyframes scss {
         0% {
           width: 0px;
         }
         100% {
-          width: 40%;
+          width: 90%;
         }
       }
-      @keyframes blogger {
+      @keyframes js {
         0% {
           width: 0px;
         }
         100% {
-          width: 70%;
+          width: 30%;
         }
       }
-      @keyframes tridion {
+      @keyframes angular {
+        0% {
+          width: 0px;
+        }
+        100% {
+          width: 20%;
+        }
+      }
+      @keyframes angular-material {
+        0% {
+          width: 0px;
+        }
+        100% {
+          width: 30%;
+        }
+      }
+      @keyframes git {
         0% {
           width: 0px;
         }
