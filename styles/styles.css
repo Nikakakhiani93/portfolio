@@ -292,8 +292,8 @@ section {
   -webkit-box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
           box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
   /*.col { width:101%; }*/
-  /*plataformas*/
-  /*plataformas*/
+  /*skills*/
+  /*skills*/
   /*media queries*/
 }
 
@@ -304,18 +304,17 @@ section {
   border: 1px solid var(--color-secondary);
 }
 
-.about-container .right-about .about-item div.plataformas {
+.about-container .right-about .about-item div.skills {
   font-size: 2.7em;
   font-weight: normal;
   padding: 12px 0;
   margin: 0 0 30px;
   text-align: center;
   background: var(--color-primary);
-  border-radius: 2px;
+  border-radius: 12px;
   border: 1px solid var(--color-secondary);
   -webkit-box-shadow: 0px 0px 50px -8px var(--color-secondary);
           box-shadow: 0px 0px 50px -8px var(--color-secondary);
-  color: var(--color-secondary);
   text-shadow: 1px 1px 5px #000, 0 0 10px #9acd32, 0 0 20px #9acd32;
 }
 
@@ -536,32 +535,32 @@ section {
 }
 
 @media (max-width: 1200px) {
-  .about-container .right-about .about-item h2 {
+  .about-container .right-about .about-item div.skills {
     font-size: 2.2em;
   }
 }
 
 @media (max-width: 980px) {
-  .about-container .right-about .about-item h2 {
+  .about-container .right-about .about-item div.skills {
     font-size: 1.8em;
   }
 }
 
 @media (max-width: 767px) {
-  .about-container .right-about .about-item h2 {
+  .about-container .right-about .about-item div.skills {
     font-size: 1.4em;
   }
 }
 
 @media (max-width: 580px) {
-  .about-container .right-about .about-item h2 {
+  .about-container .right-about .about-item div.skills {
     font-size: 1.1em;
     padding: 10px 0;
   }
 }
 
 @media (max-width: 480px) {
-  .about-container .right-about .about-item h2 {
+  .about-container .right-about .about-item div.skills {
     font-size: 2.2em;
     padding: 10px 0 15px 0;
   }
